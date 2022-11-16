@@ -1,0 +1,32 @@
+nav{
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 99;
+  .logo{
+    height: 50px;
+    width: 100px;
+    display: grid;
+    place-items: center;
+    img{
+      width: 100%;
+      transform: scale(2);
+    }
+  }
+  button{
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(65,65,65);
+    padding: .5rem;
+    transition: all 0.3 ease;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    &:hover{
+      background: rgb(65,65,65);
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1,h2{
+  color: #3B444B;
+};
+h3,h4{
+  color: rgb(100,100,100);
+}
+img{
+  width: 100%;
+}
+body {
+  background-color: #50E3C2;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+      
+}
+.app{
+  backdrop-filter: blur(25px) saturate(111%);
+  -webkit-backdrop-filter: blur(25px) saturate(111%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  max-width: 900px;
+  margin-inline: auto;
+  min-height: 100vh; 
+}
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav"
+
+
